@@ -13,6 +13,12 @@
 		86BBBF0326E22B78008211A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86BBBF0126E22B78008211A0 /* Main.storyboard */; };
 		86BBBF0526E22B79008211A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86BBBF0426E22B79008211A0 /* Assets.xcassets */; };
 		86BBBF0826E22B79008211A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86BBBF0626E22B79008211A0 /* LaunchScreen.storyboard */; };
+		86BBBF1026E22BE5008211A0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BBBF0F26E22BE5008211A0 /* SecondViewController.swift */; };
+		86EF809926E235340076E178 /* phuquoc.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 86EF809826E235340076E178 /* phuquoc.jpeg */; };
+		86EF809B26E235530076E178 /* fansipan.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 86EF809A26E235530076E178 /* fansipan.jpeg */; };
+		86EF809D26E2355A0076E178 /* danang.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 86EF809C26E235590076E178 /* danang.jpeg */; };
+		86EF809F26E235640076E178 /* dalat.png in Resources */ = {isa = PBXBuildFile; fileRef = 86EF809E26E235640076E178 /* dalat.png */; };
+		86EF80A126E2356A0076E178 /* sapa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 86EF80A026E2356A0076E178 /* sapa.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		86BBBF0426E22B79008211A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86BBBF0726E22B79008211A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86BBBF0926E22B79008211A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86BBBF0F26E22BE5008211A0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		86EF809826E235340076E178 /* phuquoc.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = phuquoc.jpeg; sourceTree = "<group>"; };
+		86EF809A26E235530076E178 /* fansipan.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fansipan.jpeg; sourceTree = "<group>"; };
+		86EF809C26E235590076E178 /* danang.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = danang.jpeg; sourceTree = "<group>"; };
+		86EF809E26E235640076E178 /* dalat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dalat.png; sourceTree = "<group>"; };
+		86EF80A026E2356A0076E178 /* sapa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sapa.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +71,16 @@
 				86BBBEFB26E22B78008211A0 /* AppDelegate.swift */,
 				86BBBEFD26E22B78008211A0 /* SceneDelegate.swift */,
 				86BBBEFF26E22B78008211A0 /* ViewController.swift */,
+				86BBBF0F26E22BE5008211A0 /* SecondViewController.swift */,
 				86BBBF0126E22B78008211A0 /* Main.storyboard */,
 				86BBBF0426E22B79008211A0 /* Assets.xcassets */,
 				86BBBF0626E22B79008211A0 /* LaunchScreen.storyboard */,
 				86BBBF0926E22B79008211A0 /* Info.plist */,
+				86EF809826E235340076E178 /* phuquoc.jpeg */,
+				86EF809A26E235530076E178 /* fansipan.jpeg */,
+				86EF809C26E235590076E178 /* danang.jpeg */,
+				86EF809E26E235640076E178 /* dalat.png */,
+				86EF80A026E2356A0076E178 /* sapa.jpeg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -124,8 +142,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86EF809D26E2355A0076E178 /* danang.jpeg in Resources */,
 				86BBBF0826E22B79008211A0 /* LaunchScreen.storyboard in Resources */,
+				86EF80A126E2356A0076E178 /* sapa.jpeg in Resources */,
+				86EF809B26E235530076E178 /* fansipan.jpeg in Resources */,
+				86EF809926E235340076E178 /* phuquoc.jpeg in Resources */,
 				86BBBF0526E22B79008211A0 /* Assets.xcassets in Resources */,
+				86EF809F26E235640076E178 /* dalat.png in Resources */,
 				86BBBF0326E22B78008211A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86BBBF1026E22BE5008211A0 /* SecondViewController.swift in Sources */,
 				86BBBF0026E22B78008211A0 /* ViewController.swift in Sources */,
 				86BBBEFC26E22B78008211A0 /* AppDelegate.swift in Sources */,
 				86BBBEFE26E22B78008211A0 /* SceneDelegate.swift in Sources */,
