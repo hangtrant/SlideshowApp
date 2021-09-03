@@ -17,7 +17,6 @@ class ViewController: UIViewController {
     var imageNames = ["phuquoc.jpeg","fansipan.jpeg","danang.jpeg","dalat.png","sapa.jpeg",]
     // 表示中の画像配列番号
     var showIndex = 0
-        
     // タイマー
     var timer: Timer!
         
