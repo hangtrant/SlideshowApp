@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SlideshowApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="87" translatesAutoresizingMaskIntoConstraints="NO" id="Keh-f4-oyi">
-                                <rect key="frame" x="81" y="494" width="267" height="30"/>
+                                <rect key="frame" x="26.5" y="350" width="267" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogc-Rc-CYo">
                                         <rect key="frame" x="0.0" y="0.0" width="31" height="30"/>
@@ -43,7 +43,7 @@
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GKh-qe-wC8">
-                                <rect key="frame" x="30" y="244" width="354" height="200"/>
+                                <rect key="frame" x="30" y="100" width="260" height="200"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <bool key="isElement" value="YES"/>
                                 </accessibility>
@@ -64,8 +64,8 @@
                         <constraints>
                             <constraint firstItem="GKh-qe-wC8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="ERz-qZ-AMb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GKh-qe-wC8" secondAttribute="trailing" constant="30" id="YP4-JU-NFM"/>
-                            <constraint firstItem="Keh-f4-oyi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="81" id="d9I-eu-eeO"/>
-                            <constraint firstItem="GKh-qe-wC8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="rNY-5J-3Rx"/>
+                            <constraint firstItem="Keh-f4-oyi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="j8q-uL-1Co"/>
+                            <constraint firstItem="GKh-qe-wC8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="rNY-5J-3Rx"/>
                             <constraint firstItem="Keh-f4-oyi" firstAttribute="top" secondItem="GKh-qe-wC8" secondAttribute="bottom" constant="50" id="ung-cp-TPn"/>
                         </constraints>
                     </view>
@@ -90,17 +90,17 @@
             <objects>
                 <viewController id="DZe-Vs-W4J" customClass="SecondViewController" customModule="SlideshowApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Za-QH-QWN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Q6e-qi-uOV">
-                                <rect key="frame" x="30" y="195" width="354" height="200"/>
+                                <rect key="frame" x="30" y="100" width="260" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="f6l-9h-pnG"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebI-jD-Bms">
-                                <rect key="frame" x="173" y="445" width="68" height="30"/>
+                                <rect key="frame" x="144.5" y="330" width="31" height="30"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
                                     <segue destination="cW5-OY-1xF" kind="unwind" unwindAction="unwind:" id="ymJ-w7-fR7"/>
@@ -110,12 +110,11 @@
                         <viewLayoutGuide key="safeArea" id="Hlv-o7-y7y"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Q6e-qi-uOV" firstAttribute="top" secondItem="Hlv-o7-y7y" secondAttribute="top" constant="195" id="8Wz-4z-dQe"/>
-                            <constraint firstItem="ebI-jD-Bms" firstAttribute="leading" secondItem="Hlv-o7-y7y" secondAttribute="leading" constant="173" id="KZL-sQ-b8q"/>
-                            <constraint firstItem="Q6e-qi-uOV" firstAttribute="leading" secondItem="Hlv-o7-y7y" secondAttribute="leading" constant="30" id="NUK-EH-aEO"/>
-                            <constraint firstItem="ebI-jD-Bms" firstAttribute="centerX" secondItem="Q6e-qi-uOV" secondAttribute="centerX" id="a57-ZU-K37"/>
-                            <constraint firstItem="Hlv-o7-y7y" firstAttribute="trailing" secondItem="Q6e-qi-uOV" secondAttribute="trailing" constant="30" id="chv-03-6XW"/>
-                            <constraint firstItem="Hlv-o7-y7y" firstAttribute="bottom" secondItem="ebI-jD-Bms" secondAttribute="bottom" constant="333" id="zRP-Py-jnI"/>
+                            <constraint firstItem="Q6e-qi-uOV" firstAttribute="centerX" secondItem="2Za-QH-QWN" secondAttribute="centerX" id="5c2-Ze-r1F"/>
+                            <constraint firstItem="ebI-jD-Bms" firstAttribute="top" secondItem="Q6e-qi-uOV" secondAttribute="bottom" constant="30" id="7Xd-W1-WBh"/>
+                            <constraint firstItem="Q6e-qi-uOV" firstAttribute="leading" secondItem="Hlv-o7-y7y" secondAttribute="leading" constant="30" id="FYT-NE-a8v"/>
+                            <constraint firstItem="ebI-jD-Bms" firstAttribute="centerX" secondItem="2Za-QH-QWN" secondAttribute="centerX" id="XV3-ii-6xH"/>
+                            <constraint firstItem="Q6e-qi-uOV" firstAttribute="top" secondItem="Hlv-o7-y7y" secondAttribute="top" constant="100" id="owk-zP-qiL"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="9rA-Bw-vy9"/>
