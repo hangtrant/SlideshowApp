@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    //
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var nextBtn: UIButton!
     @IBOutlet weak var backBtn: UIButton!
